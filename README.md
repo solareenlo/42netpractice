@@ -1,5 +1,16 @@
 # 42netpractice
 
+### level7
+- (A) Interface A1 と Interface R11 は同じサブネットマスクにする
+  - client A の設定は，Interface A1 -> Interface R11 への設定をする
+- (B) Interface R12 と Interface R21 は同じサブネットマスクにする
+  - roter R1 の設定では，Interface R12 -> Interface R21 への設定をする
+  - roter R2 の設定では，Interface R21 -> Interface R12 への設定をする
+- (C) Interface R22 と Interface C1 は同じサブネットマスクにする
+  - client C の設定では，Interface C1 -> Interface R22 への設定をする
+- (A), (B), (C) はそれぞれ別のサブネットマスクにする
+  - なぜならば，ルータは別のネットワークを繋ぐものだから，同じネットワークにある IP Address は突っぱねる
+
 ### level6
 - I の宛先の下1桁は 1 なのに気をつける
 - ルーティングテーブルの宛先ルート (Routes) には，相手先のアドレスとサブネットマスクを直接入力する
