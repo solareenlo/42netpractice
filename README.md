@@ -14,7 +14,7 @@
 ### level6
 - I の宛先の下1桁は 1 なのに気をつける
   - つまり `internet: Internet Routs: 163.172.250.1/32 -> xxx.xxx.xxx.xxx` にするということ
-- ルーティングテーブルの宛先ルート (Routes) には，相手先のアドレスを入力する
+- ルーティングテーブルの宛先ルート (Routes) には，相手先の `Interface の IP Address` を入力する
 - [ルーティングテーブルの見方](https://qiita.com/cafedrip/items/8f0cc9544910cba23be8#ルーティングテーブルの見方)
 - switch でつながっている部分のサブネットマスクは同じで構わない
 
