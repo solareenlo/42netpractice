@@ -17,7 +17,7 @@
 - [ルーティングテーブルの見方](https://qiita.com/cafedrip/items/8f0cc9544910cba23be8#ルーティングテーブルの見方)
 
 ### level5
-- Routes には，自分の Interface の IP Address を入れてあげる
+- Routes には，`default` -> `通信先の Interface の IP Address` を入れる
 
 ### level4
 - Interface R2 で 110.102.43.1 ~ 110.102.43.126 がホストとして使われる
