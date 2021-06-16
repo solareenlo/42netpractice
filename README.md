@@ -5,6 +5,7 @@
 
 ### level9
 - Internet の Routes は，Internet と繋がっている Interface に繋がるネットワークの Network Address を記入する
+  - その際に，一番範囲の大きな Network Address のサブネットマスクにする
 - switch で繋がってる Interface は同じ network にする
 - プライベート IP アドレスは Internet に繋ぐのあれば使えない
 
