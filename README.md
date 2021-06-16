@@ -1,6 +1,7 @@
 # 42netpractice
 
 ### level8
+- Internet の Routes は，Internet と繋がっている Interface に繋がるネットワークの Network Address を記入する
 - プライベート IP アドレスは Internet に繋ぐのあれば使えない
   - 10.0.0.0 ~ 10.255.255.255 (10.0.0.0/8) (Class A)
   - 172.16.0.0 ~ 172.31.255.255 (172.16.0.0/12) (Class B)
