@@ -1,5 +1,9 @@
 # 42netpractice
 
+### level9
+- Internet の Routes は，Internet と繋がっている Interface に繋がるネットワークの Network Address を記入する
+- switch で繋がってる Interface は同じ network にする
+
 ### level8
 - Internet の Routes は，Internet と繋がっている Interface に繋がるネットワークの Network Address を記入する
 - プライベート IP アドレスは Internet に繋ぐのあれば使えない
